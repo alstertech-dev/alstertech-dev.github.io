@@ -6,7 +6,8 @@
 
 body {
   min-height: 100vh;
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
+  background: #F5F8FA;
 }
 
 .navbar {
@@ -14,7 +15,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background: #745595;
+  background: #FFFFFF;
   padding: 1em 2em;
 }
 
@@ -22,7 +23,7 @@ body {
   color: transparent;
   width: 150px;
   height: 40px;
-  background-image: url("img/alstertech-full-white.png");
+  background-image: url("img/alstertech-full.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
@@ -41,13 +42,13 @@ body {
 .nav-item a {
   display: block;
   padding: 0.75em 1.5em;
-  background: #f78496;
-  color: white;
+  background: #F5F8FA;
+  color: #2C3E50;
   text-decoration: none;
   border-radius: 4px;
   transition: background 0.3s;
 }
 
 .nav-item a:hover {
-  background: #e66d81;
+  /* background: #e66d81; */
 }

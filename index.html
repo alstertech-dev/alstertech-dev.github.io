@@ -1,9 +1,74 @@
 <!doctype html>
 <html>
   <head>
-    <title>This is the title of the webpage!</title>
+    <title>AlsterTech - Produkte</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        font-family:
+          Arial,
+          Source Sans 3;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background: #745595;
+        padding: 1em 2em;
+      }
+
+      .navbar .logo {
+        color: transparent;
+        width: 150px;
+        height: 40px;
+        background-image: url("img/alstertech-full-white.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+        text-decoration: none;
+      }
+
+      .nav-menu {
+        display: flex;
+        list-style: none;
+        gap: 1em;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .nav-item a {
+        display: block;
+        padding: 0.75em 1.5em;
+        background: #f78496;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background 0.3s;
+      }
+
+      .nav-item a:hover {
+        background: #e66d81;
+      }
+    </style>
   </head>
   <body>
-    <p>MORE TESTS</p>
+    <nav class="navbar">
+      <a class="logo" href="index.html">AlsterTech</a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="about-us.html">Über uns</a></li>
+        <li class="nav-item"><a href="products.html">Produkte</a></li>
+        <li class="nav-item"><a href="contact.html">Kontakt</a></li>
+      </ul>
+    </nav>
   </body>
 </html>

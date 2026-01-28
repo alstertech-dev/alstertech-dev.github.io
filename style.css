@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   font-family: sans-serif;
   background: #F5F8FA;
+  padding: 5em;
 }
 
 .navbar {
@@ -17,6 +18,11 @@ body {
   width: 100%;
   background: #FFFFFF;
   padding: 1em 2em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .navbar .logo {

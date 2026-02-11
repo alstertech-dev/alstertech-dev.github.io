@@ -20,7 +20,6 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   z-index: 100;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -76,11 +75,13 @@ body {
   border-radius: 8px;
   padding: 1.5rem;
   text-align: center;
+  /* aspect-ratio: 8/5; */
+  aspect-ratio: 4/3;
 }
 
 .product-card img {
   width: 100%;
-  height: 200px;
+  height: 100%;
   object-fit: cover;
   border-radius: 4px;
   margin-bottom: 1rem;

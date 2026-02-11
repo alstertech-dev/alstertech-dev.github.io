@@ -5,10 +5,9 @@
 }
 
 body {
-  min-height: 100vh;
   font-family: sans-serif;
   background: #F5F8FA;
-  padding: 5em;
+  padding-top: 5em;
 }
 
 .navbar {
@@ -23,6 +22,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .logo {
@@ -52,19 +52,18 @@ body {
   color: #2C3E50;
   text-decoration: none;
   border-radius: 4px;
-  /* font-size: 1.3em; */
   font-weight: bold;
   transition: background 0.3s;
 }
 
 .nav-item a:hover {
   color: #5A9FB5;
-  /* background: #e66d81; */
 }
 
 .products {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  /* grid-template-columns: repeat(2, 1fr); */
   gap: 2rem;
   padding: 2rem;
   max-width: 1200px;
@@ -96,4 +95,11 @@ body {
   font-size: 1.5rem;
   color: #2C3E50;
   font-weight: bold;
+}
+
+.contents {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
 }

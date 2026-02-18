@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   background: #F5F8FA;
   padding-top: 5em;
 }
@@ -101,4 +101,12 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   padding: 2rem;
+}
+
+.contents {
+  background: white;
+  border: 1px solid #E1E8ED;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
 }

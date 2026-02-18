@@ -1,8 +1,12 @@
 ## TODO
 
-- [ ] About page text
+- [ ] add all current products
+  - [ ] get pricelist of all products
+
+
 - [ ] About page images
 - [ ] add imprint
+- [ ] About page text [[Home]]
 
 ## Structure
 

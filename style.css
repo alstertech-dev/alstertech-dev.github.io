@@ -103,7 +103,8 @@ body {
   padding: 2rem;
 }
 
-.contents {
+/* cards und text abwechselnd */
+.card {
   background: white;
   border: 1px solid #E1E8ED;
   border-radius: 8px;

@@ -23,6 +23,7 @@
 
 - [ ] Talk with #ppl/fomin || #ppl/leif about payment methods
 - [ ] individual product pages: add page for 'Kopfhörer'
+- [ ] #ppl/jannes fragen, ob er als Geschäftsleiter abgebildet sein möchte
 
 ## To Be Delegated
 

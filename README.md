@@ -1,21 +1,34 @@
-## TODO
+## Collect
 
-- [ ] Homepage
+- [ ] viewing and buying products
+  - [ ] user needs to be able to buy a product
+    - [x] instructions on products page
+    - [x] Kontakt: Email, Instructions on how to buy
+    - [.] we need payment methods
+  - [ ] all products with prices and images on products page
+    - [.] official prices
+    - [.] (high quality images)
+    - [ ] (individual product pages with description and further details)
+- home page
   - inspiriert an https://digitalesklassenbuch.com/
   - abwechselnd Blöcke von text und Text auf der Seite
-- [ ] Produkt Seite
-  - [ ] Preisliste aller Produkte
-  - [ ] Bilder
-  - [ ]
-- [ ] Kontakt Seite
-  - [ ] Email
-  - [ ] Instagram
-  - [ ] Twitter
-  - [ ] YouTube
+- imprint
+
 
 - [ ] About page images
 - [ ] add imprint
 - [ ] About page text [[Home]]
+
+## Tasks
+
+- [ ] Talk with #ppl/fomin || #ppl/leif about payment methods
+- [ ] individual product pages: add page for 'Kopfhörer'
+
+## To Be Delegated
+
+- [ ] Preisliste der Produkte
+- [ ] Bilder für die Produkte
+- [ ] Text für Home Page schreiben
 
 ## Structure
 
